@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package>
+    <name>Affiliate4You_A4yPixelAndFeed</name>
+    <version>0.1.1</version>
+    <stability>stable</stability>
+    <license uri="http://www.gnu.org/licenses/gpl-3.0.html">GPL v3</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Automatic tracking pixel placement and xml product feed generator for affiliate marketing purpose.</summary>
+    <description>1. Contents&#xD;
+- Uses&#xD;
+- Xml product feed generator&#xD;
+- Tracking pixel on success page&#xD;
+&#xD;
+2. Uses&#xD;
+This module is intended as a convience meassure for Affiliate4You customers and is optimized to those specifications. However the xml product feed can be used for other purposes.&#xD;
+&#xD;
+3. Xml product feed generator&#xD;
+When enabled this will provide a xml product feed that has the required fields for Affiliate4you as well as any custom fields you added personally. You can use this generator to easily create a product feed with the correct specifications.&#xD;
+&#xD;
+Admin options:&#xD;
+- Enable/Disable&#xD;
+- Optional URL parameters&#xD;
+- Width for small image&#xD;
+- Height for small image&#xD;
+- Width for medium image&#xD;
+- Height for medium image&#xD;
+- Usual shipping time for products&#xD;
+- Usual shipping cost for products&#xD;
+&#xD;
+4. Tracking pixel on success page&#xD;
+When  enabled this will add a tracking pixel to the succes sale page without you having to edit any base files. The correct campaign ID will be supplied by Affiliate4you.&#xD;
+&#xD;
+Admin options:&#xD;
+- Enable/Disable&#xD;
+- Campaign ID</description>
+    <notes>First released version.</notes>
+    <authors><author><name>Affiliate4You</name><user>Affiliate4You</user><email>support@affiliate4you.nl</email></author><author><name>Lennart Kramer</name><user>lennartkramer</user><email>lennart@affiliate4you.nl</email></author></authors>
+    <date>2013-08-16</date>
+    <time>09:32:57</time>
+    <contents><target name="magecommunity"><dir name="Affiliate4You"><dir name="A4yPixelAndFeed"><dir name="Block"><file name="Conversion.php" hash="841dbd0c7dc96dbd220f6eecd44ee847"/></dir><dir name="Helper"><file name="Data.php" hash="e1569c51c71ca2c8cf010c702d0d3a49"/><file name="SimpleXml.php" hash="e0f2005a5d7e413bd33b5c904ecc45dc"/><file name="XmlFeed.php" hash="ba0720b40aaba458d5a897b240700d11"/></dir><dir name="Model"><file name="Observer.php" hash="31305b0b35ea8ab288e467ba28d2dd8e"/></dir><dir name="controllers"><file name="IndexController.php" hash="5eebe4a65f12c6b7f8ee6c15f1880418"/></dir><dir name="etc"><file name="adminhtml.xml" hash="8ea247e15036ac836a7c82d08f0ce2a2"/><file name="config.xml" hash="1073db6cacde3168de9060819274be16"/><file name="system.xml" hash="b4b0857d931fed53dd23af4f4e342eff"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Affiliate4You_A4yPixelAndFeed.xml" hash="74f6011a3faf75b1635eef047719815c"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="affiliate4you_a4ypixelandfeed"><file name="conversion.phtml" hash="601d76dbbc3dbf3d03e266c7185926a1"/></dir></dir><dir name="layout"><file name="affiliate4you_a4ypixelandfeed.xml" hash="e87a32ab186a2fd1c25fc1b8d82885e1"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
