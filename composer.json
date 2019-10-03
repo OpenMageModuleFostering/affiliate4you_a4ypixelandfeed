@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Affiliate4You_A4yPixelAndFeed",
+    "name": "OpenMageModuleFostering\/Affiliate4You_A4yPixelAndFeed",
     "type": "magento-module",
     "license": "GPL-v3",
     "homepage": "",
     "description": "Automatic tracking pixel placement and xml product feed generator for affiliate marketing purpose.",
     "authors": [
-    {
-        "name": "Affiliate4You",
-        "email": "support@affiliate4you.nl"
-    }
-],
+        {
+            "name": "Affiliate4You",
+            "email": "support@affiliate4you.nl"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
